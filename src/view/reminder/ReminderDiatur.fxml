@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="rootPane" prefHeight="158.0" prefWidth="225.0" style="-fx-background-color: linear-gradient(to top, #FFFFFF, #E0FFE0); -fx-background-radius: 12;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.reminder.ReminderDiatur">
+   <effect>
+      <DropShadow offsetY="5.0">
+         <color>
+            <Color red="0.5789473652839661" green="0.5789473652839661" blue="0.5789473652839661" />
+         </color>
+      </DropShadow>
+   </effect>
+   <AnchorPane layoutX="2.0" prefHeight="157.0" prefWidth="223.0" style="-fx-background-color: linear-gradient(to bottom, #ffffff, #e0ffe0); -fx-background-radius: 12; -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5,0,0,1);">
+      <children>
+         <Label fx:id="lblHari" layoutX="20.0" layoutY="6.0" style="-fx-font-weight: bold; -fx-font-size: 18;">
+            <font>
+               <Font name="System Bold" size="18.0" />
+            </font>
+         </Label>
+         <Label fx:id="lblTanggal" layoutX="60.0" layoutY="6.0" style="-fx-font-size: 14;" />
+         <Label fx:id="lblJudul" layoutX="14.0" layoutY="45.0" style="-fx-font-weight: bold;" text="Judul" />
+         <Label fx:id="lblDeskripsi" layoutX="14.0" layoutY="76.0" style="-fx-font-size: 12;" text="Deskripsi" />
+         <Button layoutX="143.0" layoutY="98.0" onAction="#handleSelesai" style="-fx-background-radius: 8; -fx-background-color: #a5d6a7;" text="Selesai" />
+      </children>
+   </AnchorPane>
+</Pane>

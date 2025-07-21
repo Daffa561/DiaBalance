@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.rkrp.ControlllerRKRPrekomendasi">
+   <children>
+      <Pane prefHeight="850.0" prefWidth="244.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <HBox layoutX="368.0" layoutY="68.8" prefHeight="246.0" prefWidth="444.0" AnchorPane.bottomAnchor="535.0" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="628.0" AnchorPane.topAnchor="69.0">
+         <children>
+            <Pane prefHeight="246.0" prefWidth="444.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="40.0" prefWidth="444.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Umum" wrappingWidth="222.80389404296875">
+                           <font>
+                              <Font name="System Bold" size="28.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="246.0" prefWidth="444.0" spacing="5.0">
+                     <children>
+                        <Label fx:id="labeljeniskelamin" prefHeight="26.0" prefWidth="301.0" text="Kelamin">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelusia" prefHeight="26.0" prefWidth="293.0" text="Umur">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labelberat" prefHeight="26.0" prefWidth="307.0" text="Berat">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="labeltinggi" prefHeight="26.0" prefWidth="286.0" text="Tinggi">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="36.0" top="20.0" />
+                     </padding>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <HBox layoutX="885.0" layoutY="69.0" prefHeight="246.0" prefWidth="444.0" AnchorPane.bottomAnchor="535.0" AnchorPane.leftAnchor="885.0" AnchorPane.rightAnchor="111.0" AnchorPane.topAnchor="69.0">
+         <children>
+            <Pane prefHeight="246.0" prefWidth="441.0" style="-fx-background-color: FFFFFF;">
+               <children>
+                  <VBox alignment="CENTER_LEFT" layoutX="-1.0" layoutY="48.0" prefHeight="200.0" prefWidth="444.0" spacing="5.0">
+                     <padding>
+                        <Insets left="36.0" />
+                     </padding>
+                     <children>
+                        <HBox prefHeight="22.0" prefWidth="408.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Keturunan: ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="labelskor1" text="Label">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="22.0" prefWidth="408.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kerabat: ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="labelskor2" text="Label">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="22.0" prefWidth="408.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gula Tinggi: ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="labelskor3" text="Label">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="22.0" prefWidth="408.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Darah Tinggi: ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="labelskor4" text="Label">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="22.0" prefWidth="408.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Olahraga: ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="labelskor5" text="Label">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="22.0" prefWidth="408.0">
+                           <children>
+                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Makan Sayur: ">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Label fx:id="labelskor6" text="-">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="22.0" prefWidth="408.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="-1.0" prefHeight="59.0" prefWidth="444.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Riwayat" wrappingWidth="108.40384674072266">
+                           <font>
+                              <Font name="System Bold" size="28.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <HBox fx:id="boxRekomen" alignment="CENTER_LEFT" layoutX="368.0" layoutY="474.4" prefHeight="321.0" prefWidth="950.0" spacing="30.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="368.0" AnchorPane.rightAnchor="122.0" AnchorPane.topAnchor="474.0">
+         <children>
+            <HBox fx:id="boxrekomen1" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="276.0" prefWidth="474.0" style="-fx-background-radius: 5; -fx-background-color: ffffff;">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="276.0" prefWidth="502.0" style="-fx-background-radius: 5;">
+                     <children>
+                        <ImageView fx:id="viewrekomen1" fitHeight="71.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Group.png" />
+                           </image>
+                           <HBox.margin>
+                              <Insets bottom="70.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <VBox alignment="BOTTOM_LEFT" prefHeight="276.0" prefWidth="408.0">
+                           <children>
+                              <Text fx:id="kalimat11" strokeType="OUTSIDE" strokeWidth="0.0" text="Rekomendasi Makanan" wrappingWidth="351.9625244140625">
+                                 <font>
+                                    <Font name="System Bold" size="32.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Text>
+                              <Text fx:id="kalimat21" strokeType="OUTSIDE" strokeWidth="0.0" text="Temukan makanan sehat yang rendah gula dan tinggi serat." wrappingWidth="288.86248779296875">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <VBox alignment="CENTER" centerShape="false" prefHeight="111.0" prefWidth="386.0">
+                                 <children>
+                                    <Button fx:id="btnrekomenMakanan" mnemonicParsing="false" onAction="#rekomendasiMakanan" prefHeight="42.0" prefWidth="165.0" style="-fx-background-color: F4C2C2;" text="Lihat Rekomendasi" textFill="WHITE">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                                 <padding>
+                                    <Insets right="80.0" top="26.0" />
+                                 </padding>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </VBox>
+                           </children>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <padding>
+                              <Insets bottom="28.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </HBox>
+         </children></HBox>
+      <Label fx:id="labelkategori" layoutX="803.0" layoutY="434.0" prefHeight="30.0" prefWidth="178.0" text="Kategori">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelskor" layoutX="819.0" layoutY="356.0" prefHeight="26.0" prefWidth="188.0" text="Skor">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <StackPane layoutX="565.0" layoutY="391.0" prefHeight="27.0" prefWidth="564.0">
+         <children>
+            <HBox fx:id="resiko" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="564.0" style="-fx-background-color: pink; -fx-background-radius: 15;">
+               <children>
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="188.0" style="-fx-background-color: green; -fx-background-radius: 15;" />
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="188.0" style="-fx-background-color: yellow; -fx-background-radius: 0;">
+                     <children>
+                        <Label fx:id="panah" layoutX="90.0" layoutY="-11.0" text="|">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="188.0" style="-fx-background-color: red; -fx-background-radius: 15;" />
+               </children>
+            </HBox>
+         </children>
+      </StackPane>
+      <AnchorPane prefHeight="850.0" prefWidth="244.0" style="-fx-background-color: white;">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutY="254.0" prefHeight="597.0" prefWidth="244.0" spacing="5.0">
+               <children>
+                  <HBox prefHeight="38.0" prefWidth="158.0">
+                     <children>
+                        <Button fx:id="Home" mnemonicParsing="false" onAction="#Home" prefHeight="38.0" prefWidth="252.0" stylesheets="@../sidebar.css" text="Home">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="26.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Image/ri_home-line.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <padding>
+                              <Insets right="8.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="37.0" prefWidth="239.0">
+                     <children>
+                        <Button fx:id="Monitoring" mnemonicParsing="false" onAction="#Monitoring" prefHeight="37.0" prefWidth="246.0" style="-fx-background-color: transparate;" stylesheets="@../sidebar.css" text="Monitoring">
+                           <graphic>
+                              <ImageView fitHeight="24.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Image/ei_chart.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="25.0" prefWidth="244.0">
+                     <children>
+                        <Button fx:id="Risiko" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Risiko" prefHeight="36.0" prefWidth="243.0" stylesheets="@../sidebar.css" text="Risiko">
+                           <graphic>
+                              <ImageView fitHeight="26.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../Image/clarity_form-line.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <VBox prefHeight="176.0" prefWidth="244.0" spacing="5.0">
+                     <children>
+                        <HBox prefHeight="20.0" prefWidth="244.0">
+                           <children>
+                              <Button fx:id="konsultasi" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Konsultasi" prefHeight="36.0" prefWidth="245.0" stylesheets="@../sidebar.css" text="Konsultasi">
+                                 <graphic>
+                                    <ImageView fitHeight="30.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Image/konsultasi.jpg" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="10.0" prefWidth="244.0">
+                           <children>
+                              <Button fx:id="komunitas" mnemonicParsing="false" onAction="#Komunitas" prefHeight="35.0" prefWidth="249.0" stylesheets="@../sidebar.css" text="Komunitas">
+                                 <graphic>
+                                    <ImageView fitHeight="24.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Image/clarity_group-line.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="14.0" prefWidth="244.0">
+                           <children>
+                              <Button fx:id="pengingat" mnemonicParsing="false" onAction="#Pengingat" prefHeight="35.0" prefWidth="248.0" stylesheets="@../sidebar.css" text="Pengingat">
+                                 <graphic>
+                                    <ImageView fitHeight="18.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../Image/daftar.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets top="25.0" />
+               </padding>
+            </VBox>
+            <Pane prefHeight="254.0" prefWidth="244.0" style="-fx-background-color: DCEDC8;">
+               <children>
+                  <ImageView fitHeight="86.0" fitWidth="94.0" layoutX="80.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Image/pp.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="220.0" layoutX="38.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Image/Logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

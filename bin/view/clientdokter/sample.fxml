@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ap_main" prefHeight="448.0" prefWidth="478.0" style="-fx-background-color: F6FFF2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.clientdokter.sampleController">
+   <children>
+      <Button fx:id="button_send" layoutX="413.0" layoutY="392.0" text="Send" />
+      
+      <TextField fx:id="tf_message" layoutX="24.0" layoutY="392.0" prefHeight="25.0" prefWidth="372.0" />
+      
+      <ScrollPane fx:id="sp_main" fitToWidth="true" layoutX="23.0" layoutY="52.0" prefHeight="326.0" prefWidth="434.0">
+         <content>
+            <VBox fx:id="vbox_messages" prefHeight="322.0" prefWidth="433.0" />
+         </content>
+      </ScrollPane>
+      
+      <Label layoutX="177.0" layoutY="14.0" prefHeight="26.0" prefWidth="126.0" text="Chat Dokter">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="kembali" layoutX="24.0" layoutY="15.0" mnemonicParsing="false" onAction="#Balik" style="-fx-background-color: Transparant;" text="Kembali" />
+   </children>
+</AnchorPane>

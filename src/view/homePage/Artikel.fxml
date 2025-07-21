@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="boxes" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="308.0" prefWidth="304.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.homePage.ArtikelController">
+   <children>
+      <ImageView fx:id="mage" fitHeight="203.0" fitWidth="328.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../controller/rkrp/image/Artikel1.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="190.0" prefWidth="204.0">
+         <children>
+            <VBox prefHeight="122.0" prefWidth="308.0">
+               <children>
+                  <Text fx:id="judul" onMouseClicked="#OneClick" strokeType="OUTSIDE" strokeWidth="0.0" text="void of beach and cloud rise" wrappingWidth="232.5890655517578">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin></Text>
+                  <Hyperlink fx:id="link" onAction="#OneClick" text="baca" />
+               </children>
+               <padding>
+                  <Insets left="20.0" top="10.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

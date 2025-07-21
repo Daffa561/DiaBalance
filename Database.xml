@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<database>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <users>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <user>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <id>1</id>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <username>azmipepeng</username>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <password>kunyuk123</password>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <email>mimo@example.com</email>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </user>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <user>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <id>2</id>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <username>daffa</username>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <password>daffa</password>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <email>dapa@example.com</email>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </user>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        <user>
+                                                
+            
+            
+            <id>3</id>
+                                                
+            
+            
+            <username>aryaaa</username>
+                                                
+            
+            
+            <password>123da123</password>
+                                                
+            
+            
+            <email>aeryaa@gmail.com</email>
+                                            
+        
+        
+        </user>
+                            
+        
+        
+        <user>
+                                    
+            
+            <id>4</id>
+                                    
+            
+            <username>si ilang</username>
+                                    
+            
+            <password>ilang123</password>
+                                    
+            
+            <email>ilang@gmail.id</email>
+                                
+        
+        </user>
+                    
+    
+    </users>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <monitoring>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <record>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>1</userId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <date>2025-07-18</date>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <glucoseLevel>120</glucoseLevel>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </record>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </monitoring>
+                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <groups>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <membership>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>1</userId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <groupId>1</groupId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <joinedDate>2025-07-10</joinedDate>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </membership>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </groups>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <reminders>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>1</userId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <judul>Minum obat pagi</judul>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <tanggal>2025-07-19</tanggal>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <deskripsi>Minum Obat</deskripsi>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </reminder>
+                                                                                                    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                                                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>0</userId>
+                                                                                                                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <judul>Bertemu dokter</judul>
+                                                                                                                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <tanggal>2025-07-01</tanggal>
+                                                                                                                                                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <deskripsi>konsultasi</deskripsi>
+                                                                                                                                            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </reminder>
+                                                                                            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                                                                    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>0</userId>
+                                                                                                                                    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <judul>Cek gula darah</judul>
+                                                                                                                                    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <tanggal>2025-07-02</tanggal>
+                                                                                                                                    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <deskripsi>cek gula</deskripsi>
+                                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </reminder>
+                                                                                    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                                                        
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>0</userId>
+                                                                                                                        
+            
+            
+            
+            
+            
+            
+            
+            
+            <judul>Minum obat</judul>
+                                                                                                                        
+            
+            
+            
+            
+            
+            
+            
+            
+            <tanggal>2025-07-03</tanggal>
+                                                                                                                        
+            
+            
+            
+            
+            
+            
+            
+            
+            <deskripsi>minum obat</deskripsi>
+                                                                                                                    
+        
+        
+        
+        
+        
+        
+        
+        
+        </reminder>
+                                                                            
+        
+        
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <userId>2</userId>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <judul>23</judul>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <tanggal>2025-07-01</tanggal>
+                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            <deskripsi>234</deskripsi>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        </reminder>
+                                                                    
+        
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <userId>2</userId>
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <judul>bertemu dokter</judul>
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <tanggal>2025-07-01</tanggal>
+                                                                                                
+            
+            
+            
+            
+            
+            
+            <deskripsi>bertemu</deskripsi>
+                                                                                            
+        
+        
+        
+        
+        
+        
+        </reminder>
+                                                            
+        
+        
+        
+        
+        
+        
+        <reminder>
+                                                                                    
+            
+            
+            
+            
+            
+            <userId>2</userId>
+                                                                                    
+            
+            
+            
+            
+            
+            <judul>Bertemu Dokter</judul>
+                                                                                    
+            
+            
+            
+            
+            
+            <tanggal>2025-07-01</tanggal>
+                                                                                    
+            
+            
+            
+            
+            
+            <deskripsi>Konsultasi</deskripsi>
+                                                                                
+        
+        
+        
+        
+        
+        </reminder>
+                                                    
+        
+        
+        
+        
+        
+        <reminder>
+                                                                        
+            
+            
+            
+            
+            <userId>2</userId>
+                                                                        
+            
+            
+            
+            
+            <judul>Bertemu Dokter</judul>
+                                                                        
+            
+            
+            
+            
+            <tanggal>2025-07-01</tanggal>
+                                                                        
+            
+            
+            
+            
+            <deskripsi>Konsultasi</deskripsi>
+                                                                    
+        
+        
+        
+        
+        </reminder>
+                                            
+    
+    
+    
+        
+        <reminder>
+                        
+            <userId>4</userId>
+                        
+            <judul>123</judul>
+                        
+            <tanggal>2025-07-31</tanggal>
+                        
+            <deskripsi>123123</deskripsi>
+                    
+        </reminder>
+            
+        <reminder>
+            <userId>4</userId>
+            <judul>321</judul>
+            <tanggal>2025-08-01</tanggal>
+            <deskripsi>321</deskripsi>
+        </reminder>
+    </reminders>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <rkrp>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <entry>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>1</userId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <date>2025-07-15</date>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <score>8</score>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <details>Keturunan diabetes</details>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </entry>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </rkrp>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <consultations>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <consultation>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <userId>1</userId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <doctorId>1</doctorId>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <date>2025-07-13</date>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <notes>Konsultasi pertama tentang pola makan</notes>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </consultation>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </consultations>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <doctors>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <doctor>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <id>1</id>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <name>dr. Siti Rahma</name>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <specialty>Endokrinologi</specialty>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <email>siti.rahma@example.com</email>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </doctor>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </doctors>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <groupList>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <group>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <id>1</id>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <name>Grup Edukasi Diabetes</name>
+                                                                                                                                                            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <description>Diskusi dan edukasi seputar diabetes</description>
+                                                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </group>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </groupList>
+                                                
+
+
+
+
+
+
+
+
+
+
+
+</database>

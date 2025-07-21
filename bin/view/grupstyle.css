@@ -1,0 +1,100 @@
+.root {
+    -fx-background-color: linear-gradient(to top, #F0FFF0, #71ee71);
+    -fx-font-family: "Segoe UI", bold;
+}
+
+.label {
+    -fx-text-fill: #2D572C;
+}
+
+.title-label {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2F4F4F;
+    -fx-padding: 15 0 15 0;
+    -fx-alignment: center;
+    -fx-background-radius: 10;
+    background: #c4debd;
+    background-image: linear-gradient(90deg, rgba(196, 222, 189, 1) 33%, rgba(87, 199, 133, 1) 100%, rgba(237, 221, 83, 1) 100%);
+}
+
+.section-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4F7942;
+    -fx-padding: 10 0 5 0;
+    -fx-background-radius: 10;
+    -fx-padding: 6 16 6 16;
+}
+
+.list-view {
+    -fx-background-color: #F0FFF0;
+    -fx-border-color: #B0E0B0;
+    -fx-border-radius: 10;
+    -fx-padding: 5;
+    -fx-cell-size: 55px;
+    -fx-background-color: #ffffff;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 0 0 1px 0;
+    -fx-font-size: 14px;
+    -fx-padding: 8;
+}
+
+.list-cell:filled:selected, .list-cell:filled:selected:hover {
+    -fx-background-color: linear-gradient(to right, #A8EEC1, #E0FFE0);
+    -fx-text-fill: black;
+    -fx-background-radius: 10;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #E0FBEA;
+    -fx-background-radius: 10;
+}
+
+.button {
+    -fx-background-color: linear-gradient(to bottom, #7FCF93, #3cb861);
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 6 16 6 16;
+}
+
+.button:hover {
+    -fx-background-color: #4a644c;
+}
+
+.text-field {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #A8D5BA;
+    -fx-padding: 6 10;
+}
+
+.separator {
+    -fx-background-color: #D3EBCD;
+}
+
+.group-name-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C6E49;
+    -fx-padding: 8 0 4 0;
+}
+
+.description-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #3B3B3B;
+    -fx-background-color: #E8F5E9;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-wrap-text: true;
+    
+}
+
+
+

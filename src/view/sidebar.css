@@ -1,0 +1,25 @@
+/* sidebar.css */
+
+/* Style default button sidebar */
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #333333;   /* teks warna normal */
+    -fx-font-size: 16px;
+    -fx-alignment: center-left;
+    -fx-padding: 8 10 8 10;   /* top right bottom left */
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+/* Saat hover */
+.button:hover {
+    -fx-background-color: #A7D8BA;  /* hijau soft */
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+}
+
+/* Saat ditekan */
+.button:pressed {
+    -fx-background-color: #7AB896;
+    -fx-text-fill: white;
+}
