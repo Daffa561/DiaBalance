@@ -22,10 +22,13 @@
                <children>
                   <VBox alignment="CENTER" prefHeight="40.0" prefWidth="444.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Informasi Umum" wrappingWidth="222.80389404296875">
+                        <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="INFORMASI UMUM" wrappingWidth="260.80389404296875">
                            <font>
                               <Font name="System Bold" size="28.0" />
                            </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
                         </Text>
                      </children>
                   </VBox>
@@ -62,7 +65,7 @@
       </HBox>
       <HBox layoutX="885.0" layoutY="69.0" prefHeight="246.0" prefWidth="444.0" AnchorPane.bottomAnchor="535.0" AnchorPane.leftAnchor="885.0" AnchorPane.rightAnchor="111.0" AnchorPane.topAnchor="69.0">
          <children>
-            <Pane prefHeight="246.0" prefWidth="441.0" style="-fx-background-color: FFFFFF;">
+            <Pane prefHeight="246.0" prefWidth="441.0" style="-fx-background-color: F4C2C2;">
                <children>
                   <VBox alignment="CENTER_LEFT" layoutX="-1.0" layoutY="48.0" prefHeight="200.0" prefWidth="444.0" spacing="5.0">
                      <padding>
@@ -73,12 +76,12 @@
                            <children>
                               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Keturunan: ">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Text>
                               <Label fx:id="labelskor1" text="Label">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Label>
                            </children>
@@ -87,12 +90,12 @@
                            <children>
                               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kerabat: ">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Text>
                               <Label fx:id="labelskor2" text="Label">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Label>
                            </children>
@@ -101,12 +104,12 @@
                            <children>
                               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gula Tinggi: ">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Text>
                               <Label fx:id="labelskor3" text="Label">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Label>
                            </children>
@@ -115,12 +118,12 @@
                            <children>
                               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Darah Tinggi: ">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Text>
                               <Label fx:id="labelskor4" text="Label">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Label>
                            </children>
@@ -129,12 +132,12 @@
                            <children>
                               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Olahraga: ">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Text>
                               <Label fx:id="labelskor5" text="Label">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Label>
                            </children>
@@ -143,12 +146,12 @@
                            <children>
                               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Makan Sayur: ">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Text>
                               <Label fx:id="labelskor6" text="-">
                                  <font>
-                                    <Font size="14.0" />
+                                    <Font size="16.0" />
                                  </font>
                               </Label>
                            </children>
@@ -158,10 +161,13 @@
                   </VBox>
                   <VBox alignment="TOP_CENTER" layoutX="-1.0" prefHeight="59.0" prefWidth="444.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Riwayat" wrappingWidth="108.40384674072266">
+                        <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="RIWAYAT" wrappingWidth="129.40384674072266">
                            <font>
                               <Font name="System Bold" size="28.0" />
                            </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
                         </Text>
                      </children>
                   </VBox>
@@ -177,7 +183,7 @@
                      <children>
                         <ImageView fx:id="viewrekomen1" fitHeight="71.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@Group.png" />
+                              <Image url="@../../Image/streamline-pixel_food-drink-fruit-cherry.png" />
                            </image>
                            <HBox.margin>
                               <Insets bottom="70.0" />
@@ -193,7 +199,7 @@
                                     <Insets />
                                  </VBox.margin>
                               </Text>
-                              <Text fx:id="kalimat21" strokeType="OUTSIDE" strokeWidth="0.0" text="Temukan makanan sehat yang rendah gula dan tinggi serat." wrappingWidth="288.86248779296875">
+                              <Text fx:id="kalimat21" strokeType="OUTSIDE" strokeWidth="0.0" text="Dapatkan rekomendasi makanan yang mendukung pengelolaan kondisi medis Anda." wrappingWidth="324.86248779296875">
                                  <font>
                                     <Font size="16.0" />
                                  </font>
@@ -203,7 +209,7 @@
                               </Text>
                               <VBox alignment="CENTER" centerShape="false" prefHeight="111.0" prefWidth="386.0">
                                  <children>
-                                    <Button fx:id="btnrekomenMakanan" mnemonicParsing="false" onAction="#rekomendasiMakanan" prefHeight="42.0" prefWidth="165.0" style="-fx-background-color: F4C2C2;" text="Lihat Rekomendasi" textFill="WHITE">
+                                    <Button fx:id="btnrekomenMakanan" mnemonicParsing="false" onAction="#rekomendasiMakanan" prefHeight="42.0" prefWidth="165.0" style="-fx-background-color: D0F0C0;" text="Lihat Rekomendasi" textFill="WHITE">
                                        <font>
                                           <Font name="System Bold" size="16.0" />
                                        </font>
@@ -252,8 +258,8 @@
          <children>
             <HBox fx:id="resiko" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="564.0" style="-fx-background-color: pink; -fx-background-radius: 15;">
                <children>
-                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="188.0" style="-fx-background-color: green; -fx-background-radius: 15;" />
-                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="188.0" style="-fx-background-color: yellow; -fx-background-radius: 0;">
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="188.0" style="-fx-background-color: A1E57E; -fx-background-radius: 15px 0px 0px 15px;" />
+                  <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="188.0" style="-fx-background-color: EBF573; -fx-background-radius: 0;">
                      <children>
                         <Label fx:id="panah" layoutX="90.0" layoutY="-11.0" text="|">
                            <font>
@@ -262,7 +268,7 @@
                         </Label>
                      </children>
                   </Pane>
-                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="188.0" style="-fx-background-color: red; -fx-background-radius: 15;" />
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="188.0" style="-fx-background-color: EB7777; -fx-background-radius: 0px 10px 10px 0px;" />
                </children>
             </HBox>
          </children>

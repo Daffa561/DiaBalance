@@ -153,4 +153,17 @@ public class HomePageController implements Initializable {
                 e.printStackTrace();
         }
     }
+
+    @FXML
+    private void Logout(ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/view/login/TombolLogin.fxml"));
+            Parent root = loader.load();
+            Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+            stage.setScene(new Scene(root));
+
+        } catch (IOException e) {
+                e.printStackTrace();
+        }
+    }
 }

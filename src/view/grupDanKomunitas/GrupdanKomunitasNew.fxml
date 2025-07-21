@@ -14,7 +14,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1440.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.grupDanKomunitas.GrupdanKomunitas">
    <children>
         <VBox layoutX="247.0" layoutY="1.0" prefHeight="851.0" prefWidth="1194.0" spacing="10.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="247.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="1.0">
@@ -145,7 +144,7 @@
                      <children>
                         <HBox prefHeight="20.0" prefWidth="244.0">
                            <children>
-                              <Button fx:id="konsultasi1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Konsultasi" prefHeight="36.0" prefWidth="245.0" stylesheets="@../sidebar.css" text="Konsultasi">
+                              <Button fx:id="konsultasi" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#Konsultasi" prefHeight="36.0" prefWidth="245.0" stylesheets="@../sidebar.css" text="Konsultasi">
                                  <graphic>
                                     <ImageView fitHeight="30.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -200,7 +199,7 @@
             </VBox>
             <Pane prefHeight="254.0" prefWidth="245.0" style="-fx-background-color: DCEDC8;">
                <children>
-                  <ImageView fitHeight="86.0" fitWidth="94.0" layoutX="82.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="86.0" fitWidth="94.0" layoutX="80.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../Image/pp.png" />
                      </image>

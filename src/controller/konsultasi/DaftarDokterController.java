@@ -120,7 +120,7 @@ public class DaftarDokterController implements Initializable {
                 fxmlloader.setLocation(getClass().getResource("/view/konsultasi/profilDokter.fxml"));
                 VBox cardBox = fxmlloader.load();
                 ProfilDokterController doktercntrl = fxmlloader.getController();
-                doktercntrl.setDokter(addedDataDokter1.get(i));
+                doktercntrl.setDokter(addedDataDokter2.get(i));
                 layout3.getChildren().add(cardBox);
              }
              
@@ -129,7 +129,7 @@ public class DaftarDokterController implements Initializable {
                 fxmlloader.setLocation(getClass().getResource("/view/konsultasi/profilDokter.fxml"));
                 VBox cardBox = fxmlloader.load();
                 ProfilDokterController doktercntrl = fxmlloader.getController();
-                doktercntrl.setDokter(addedDataDokter1.get(i));
+                doktercntrl.setDokter(addedDataDokter3.get(i));
                 layout4.getChildren().add(cardBox);
              }
             
@@ -145,7 +145,7 @@ public class DaftarDokterController implements Initializable {
         DokterData dokter = new DokterData();
         dokter.setNamaDokter("Dr. Azmii");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
-        dokter.setSpesialisDokter("Pari-Paru");
+        dokter.setSpesialisDokter("Paru-Paru");
         dokter.setPengalamanDokter("12 Tahun");
         list.add(dokter);
        
@@ -159,8 +159,8 @@ public class DaftarDokterController implements Initializable {
         dokter = new DokterData();
         dokter.setNamaDokter("Dr. Daffa");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
-        dokter.setSpesialisDokter("Gizi");
-        dokter.setPengalamanDokter("1 Tahun");
+        dokter.setSpesialisDokter("Penyakit dalam");
+        dokter.setPengalamanDokter("12 Tahun");
         list.add(dokter);
         
         
@@ -168,19 +168,19 @@ public class DaftarDokterController implements Initializable {
         DokterData dokter = new DokterData();
         dokter.setNamaDokter("Dr. Tirta pepeng");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
-        dokter.setSpesialisDokter("Pari-Paru");
+        dokter.setSpesialisDokter("Paru-Paru");
         dokter.setPengalamanDokter("12 Tahun");
         list.add(dokter);
        
         dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Daffa");
+        dokter.setNamaDokter("Dr. Musa");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
         dokter.setSpesialisDokter("Gizi");
-        dokter.setPengalamanDokter("1 Tahun");
+        dokter.setPengalamanDokter("12 Tahun");
         list.add(dokter);
         
         dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Daffa");
+        dokter.setNamaDokter("Dr. Juan");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
         dokter.setSpesialisDokter("Gizi");
         dokter.setPengalamanDokter("1 Tahun");
@@ -190,19 +190,19 @@ public class DaftarDokterController implements Initializable {
          DokterData dokter = new DokterData();
         dokter.setNamaDokter("Dr. Tirta pepeng");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
-        dokter.setSpesialisDokter("Pari-Paru");
+        dokter.setSpesialisDokter("Paru-Paru");
         dokter.setPengalamanDokter("12 Tahun");
         list.add(dokter);
        
         dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Daffa");
+        dokter.setNamaDokter("Dr. Duta");
         dokter.setGambarDokter("/controller/rkrp/image/Dokter.png");
         dokter.setSpesialisDokter("Gizi");
-        dokter.setPengalamanDokter("1 Tahun");
+        dokter.setPengalamanDokter("14 Tahun");
         list.add(dokter);
         
         dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Daffa");
+        dokter.setNamaDokter("Dr. Kevin");
         dokter.setGambarDokter("/controller/rkrp/Image/Dokter.png");
         dokter.setSpesialisDokter("Gizi");
         dokter.setPengalamanDokter("1 Tahun");
@@ -210,21 +210,21 @@ public class DaftarDokterController implements Initializable {
         
     }else if (Vbox == 4){
          DokterData dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Tirta pepeng");
+        dokter.setNamaDokter("Dr. Matius");
         dokter.setGambarDokter("/controller/rkrp/Image/Dokter.png");
         dokter.setSpesialisDokter("Pari-Paru");
         dokter.setPengalamanDokter("12 Tahun");
         list.add(dokter);
        
         dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Daffa");
+        dokter.setNamaDokter("Dr. Yosa");
         dokter.setGambarDokter("/controller/rkrp/Image/Dokter.png");
         dokter.setSpesialisDokter("Gizi");
         dokter.setPengalamanDokter("1 Tahun");
         list.add(dokter);
         
          dokter = new DokterData();
-        dokter.setNamaDokter("Dr. Daffa");
+        dokter.setNamaDokter("Dr. Romus");
         dokter.setGambarDokter("/controller/rkrp/Image/Dokter.png");
         dokter.setSpesialisDokter("Gizi");
         dokter.setPengalamanDokter("1 Tahun");

@@ -15,7 +15,7 @@
          <children>
             <ImageView fx:id="viewrekomen" fitHeight="71.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Group.png" />
+                  <Image url="@../../Image/Gambar%20WhatsApp%202025-07-21%20pukul%2020.56.59_9fdd2b44.jpg" />
                </image>
                <HBox.margin>
                   <Insets bottom="70.0" />
@@ -59,7 +59,7 @@
                   <Insets />
                </opaqueInsets>
                <padding>
-                  <Insets bottom="28.0" />
+                  <Insets bottom="30.0" />
                </padding>
             </VBox>
          </children>

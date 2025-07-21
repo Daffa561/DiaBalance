@@ -20,10 +20,13 @@
    <children>
       <VBox alignment="CENTER" layoutX="299.0" layoutY="37.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="482.0" spacing="15.0" style="-fx-background-color: ffffff; -fx-background-radius: 5;" AnchorPane.bottomAnchor="542.2" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="661.0" AnchorPane.topAnchor="37.0">
          <children>
-            <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Poppins;" text="Informasi Umum">
+            <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Poppins;" text="INFORMASI UMUM">
                <font>
                   <Font name="System Bold" size="28.0" />
                </font>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
             </Text>
             <HBox prefHeight="219.0" prefWidth="428.0" spacing="15.0">
                <children>
@@ -71,17 +74,22 @@
             <Insets top="10.0" />
          </padding>
       </VBox>
-      <VBox alignment="CENTER" layoutX="908.0" layoutY="37.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="482.0" spacing="15.0" style="-fx-background-color: F4C2C2; -fx-background-radius: 5;" AnchorPane.bottomAnchor="542.0" AnchorPane.rightAnchor="52.0" AnchorPane.topAnchor="37.0">
-         <children>
-            <HBox prefHeight="219.0" prefWidth="404.0" spacing="15.0">
-               <padding>
-                  <Insets left="15.0" right="15.0" />
-               </padding>
-            </HBox>
-         </children>
+      <VBox layoutX="908.0" layoutY="37.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="274.0" prefWidth="482.0" spacing="15.0" style="-fx-background-color: F4C2C2; -fx-background-radius: 5;" AnchorPane.bottomAnchor="542.0" AnchorPane.rightAnchor="52.0" AnchorPane.topAnchor="37.0">
          <padding>
-            <Insets top="10.0" />
+            <Insets left="20.0" right="10.0" top="20.0" />
          </padding>
+         <children>
+            <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="Isi form ini supaya sistem bisa memberikan rekomendasi untkumu!" wrappingWidth="421.13671875">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="#333333" strokeType="OUTSIDE" strokeWidth="0.0" text="Riwayat akan muncul saat anda selesai menjawab." wrappingWidth="439.51171875">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Text>
+         </children>
       </VBox>
       <VBox layoutX="299.0" layoutY="390.0" prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: FFFFFF; -fx-background-radius: 5;" AnchorPane.bottomAnchor="42.799999999999955" AnchorPane.leftAnchor="299.0" AnchorPane.rightAnchor="47.40000000000009" AnchorPane.topAnchor="390.0">
          <children>
@@ -89,8 +97,11 @@
                <children>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PERTANYAAN">
                      <font>
-                        <Font name="System Bold" size="16.0" />
+                        <Font name="System Bold" size="28.0" />
                      </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
                   </Text>
                </children>
             </HBox>
@@ -100,32 +111,44 @@
                      <children>
                         <Text layoutX="46.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apakah Orang tua atau saudara kandung anda pernah di diagnosis diabetes">
                            <font>
-                              <Font size="14.0" />
+                              <Font size="16.0" />
                            </font></Text>
                         <RadioButton fx:id="ya1bButton" layoutX="46.0" layoutY="17.0" mnemonicParsing="false" text="Ya">
                            <toggleGroup>
                               <ToggleGroup fx:id="tGroup1" />
-                           </toggleGroup></RadioButton>
-                        <RadioButton fx:id="tidak1Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup1" />
-                        <Pane layoutY="34.0" prefHeight="15.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <RadioButton fx:id="tidak1Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup1">
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <Pane layoutY="41.0" prefHeight="8.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
                      </children>
                   </Pane>
                </children>
             </VBox>
-            <VBox prefHeight="49.0" prefWidth="1096.0">
+            <VBox prefHeight="49.0" prefWidth="1046.0">
                <children>
-                  <Pane prefHeight="33.0" prefWidth="1096.0">
+                  <Pane prefHeight="19.0" prefWidth="1096.0">
                      <children>
                         <Text layoutX="46.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apakah kakek nenek paman bibi sepupu pernah di diagnosis diabetes">
                            <font>
-                              <Font size="14.0" />
+                              <Font size="16.0" />
                            </font></Text>
                         <RadioButton fx:id="ya2bButton" layoutX="46.0" layoutY="17.0" mnemonicParsing="false" text="Ya">
                            <toggleGroup>
                               <ToggleGroup fx:id="tGroup2" />
-                           </toggleGroup></RadioButton>
-                        <RadioButton fx:id="tidak2Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup2" />
-                        <Pane layoutY="34.0" prefHeight="15.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <RadioButton fx:id="tidak2Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup2">
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <Pane layoutY="41.0" prefHeight="8.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
                      </children>
                   </Pane>
                </children>
@@ -136,14 +159,20 @@
                      <children>
                         <Text layoutX="46.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apakah kamu pernah memiliki gula darah tinggi">
                            <font>
-                              <Font size="14.0" />
+                              <Font size="16.0" />
                            </font></Text>
                         <RadioButton fx:id="ya3bButton" layoutX="46.0" layoutY="17.0" mnemonicParsing="false" text="Ya">
                            <toggleGroup>
                               <ToggleGroup fx:id="tGroup3" />
-                           </toggleGroup></RadioButton>
-                        <RadioButton fx:id="tidak3Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup3" />
-                        <Pane layoutY="34.0" prefHeight="15.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <RadioButton fx:id="tidak3Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup3">
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <Pane layoutY="41.0" prefHeight="8.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
                      </children>
                   </Pane>
                </children>
@@ -154,14 +183,20 @@
                      <children>
                         <Text layoutX="46.0" layoutY="13.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apakah kamu sehari hari mengonsumsi obat darah tinggi">
                            <font>
-                              <Font size="14.0" />
+                              <Font size="16.0" />
                            </font></Text>
                         <RadioButton fx:id="ya4bButton" layoutX="46.0" layoutY="17.0" mnemonicParsing="false" text="Ya">
                            <toggleGroup>
                               <ToggleGroup fx:id="tGroup4" />
-                           </toggleGroup></RadioButton>
-                        <RadioButton fx:id="tidak4Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup4" />
-                        <Pane layoutY="34.0" prefHeight="15.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <RadioButton fx:id="tidak4Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup4">
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <Pane layoutY="41.0" prefHeight="8.0" prefWidth="600.0" style="-fx-background-color: FFFFFF;" />
                      </children>
                   </Pane>
                </children>
@@ -172,14 +207,21 @@
                      <children>
                         <Text layoutX="46.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apakah kamu berolahraga 30 menit setiap hari">
                            <font>
-                              <Font size="14.0" />
-                           </font></Text>
-                        <RadioButton fx:id="ya5bButton" layoutX="46.0" layoutY="17.0" mnemonicParsing="false" text="Ya">
+                              <Font size="16.0" />
+                           </font>
+                        </Text>
+                        <RadioButton fx:id="ya5bButton" layoutX="46.0" layoutY="19.0" mnemonicParsing="false" text="Ya">
                            <toggleGroup>
                               <ToggleGroup fx:id="tGroup5" />
-                           </toggleGroup></RadioButton>
-                        <RadioButton fx:id="tidak5Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup5" />
-                        <Pane layoutY="34.0" prefHeight="15.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <RadioButton fx:id="tidak5Button" layoutX="169.0" layoutY="19.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup5">
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <Pane layoutY="41.0" prefHeight="8.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
                      </children>
                   </Pane>
                </children>
@@ -190,14 +232,20 @@
                      <children>
                         <Text layoutX="46.0" layoutY="11.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Seberapa sering mengonsumsi sayur dan buah">
                            <font>
-                              <Font size="14.0" />
+                              <Font size="16.0" />
                            </font></Text>
                         <RadioButton fx:id="ya6bButton" layoutX="46.0" layoutY="17.0" mnemonicParsing="false" text="Ya">
                            <toggleGroup>
                               <ToggleGroup fx:id="tGroup6" />
-                           </toggleGroup></RadioButton>
-                        <RadioButton fx:id="tidak6Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup6" />
-                        <Pane layoutY="34.0" prefHeight="15.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
+                           </toggleGroup>
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <RadioButton fx:id="tidak6Button" layoutX="169.0" layoutY="17.0" mnemonicParsing="false" text="Tidak" toggleGroup="$tGroup6">
+                           <font>
+                              <Font size="14.0" />
+                           </font></RadioButton>
+                        <Pane layoutY="41.0" prefHeight="8.0" prefWidth="1096.0" style="-fx-background-color: FFFFFF;" />
                      </children>
                   </Pane>
                </children>
@@ -206,13 +254,19 @@
                <children>
                   <Pane prefHeight="47.0" prefWidth="384.0">
                      <children>
-                        <Label fx:id="label2" layoutX="47.0" layoutY="15.0" text="Label" textFill="RED" />
+                        <Label fx:id="label2" layoutX="85.0" layoutY="21.0" prefHeight="25.0" prefWidth="233.0" textFill="RED">
+                           <font>
+                              <Font size="16.0" />
+                           </font></Label>
                      </children>
                   </Pane>
                   <Pane prefHeight="47.0" prefWidth="384.0" />
                   <Pane prefHeight="47.0" prefWidth="384.0">
                      <children>
-                        <Button fx:id="btnhasil" layoutX="242.0" layoutY="11.0" mnemonicParsing="false" onAction="#proseshasil" text="Lihat Hasil" />
+                        <Button fx:id="btnhasil" layoutX="226.0" layoutY="6.0" mnemonicParsing="false" onAction="#proseshasil" style="-fx-background-color: A7D8BA;" text="Lihat Hasil" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font></Button>
                      </children>
                   </Pane>
                </children>
